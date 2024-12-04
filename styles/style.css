@@ -416,7 +416,8 @@ footer {
     nav {
         ul {
             column-gap: 10px;
-            grid-template: 1fr / repeat(5, 1fr);
+            row-gap: 10px;
+            grid-template: 1fr / repeat(4, 1fr);
         }
     }
 
@@ -447,11 +448,7 @@ footer {
 
     .portfolio {
         header {
-            padding: 35px 10%;
-
-            h2 {
-                font-size: 22px;
-            }
+            padding: 1;
 
             ul {
                 column-gap: 10px;
